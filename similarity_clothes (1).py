@@ -12,6 +12,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
+sklearn.metrics.pairwise.cosine_similarity
 
 df = pd.read_csv('data.csv')
 
