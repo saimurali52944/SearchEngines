@@ -1,8 +1,10 @@
 # clothing_pro
 
-The goal of this project is to create a machine learning model capable of receiving text describing a clothing item and returning a ranked list of links to similar items from different websites. Your solution must be a function deployed on Google Cloud that accepts a text string and returns JSON responses with ranked suggestions.
+"The objective of this project is to develop a machine-learning model capable of analyzing textual descriptions of clothing items and providing a ranked list of links to similar items from various websites. We collected data from both Flipkart and Shopclues, covering a wide range of clothing types. The data collection process involved utilizing Python scripts for web scraping, and the collected data was subsequently stored in an Excel file. Following this, we constructed a similarity search algorithm.
 
-The project commited in the github have only the similarity search coding not Containerized using Docker due to compatible issues in the system.
+To make our solution accessible, we employed FastAPI to host it on a local machine. Ultimately, our goal is to deploy this solution as a function on Google Cloud, which will take a text input and return JSON responses containing ranked clothing suggestions.
+
+Please note that the project currently available on GitHub includes the similarity search code but has not been containerized using Docker due to compatibility issues with the system."
 
 API usage --
 
